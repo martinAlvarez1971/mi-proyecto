@@ -1,0 +1,284 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.tipoLetraPagina{
+    display: flex;
+    justify-content: center;
+    font-size:150px;
+    color: rgb(112, 112, 236);
+}
+
+.menuPrincipal{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.fondoHeader{
+    background-color: rgb(112, 112, 236);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+
+.ubicacionLogo{
+    margin: 15px;
+}
+
+.opcionMenu{
+   
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 48px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+.subrayado{
+    text-decoration: none;
+    color: blue;
+}
+
+.opcionMenu:hover{
+    background-color:rgb(147, 147, 207);
+}
+
+
+.botonBusqueda{
+    background-color: white;
+    text-decoration: none;
+    width: 400px;
+    height: 60px;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.palabraBuscar{
+    font-size: 100px;
+    font-style: italic;  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.letra{
+    text-decoration: none;
+    margin: 300px 600px 10px;
+    margin-bottom: 0;
+    font-size: 150px;
+    font-style: italic;
+    color: black;
+}
+
+.letra2Posicion{
+    padding:0px 575px;
+}
+
+.letra2>a{
+    color: blue;
+    text-decoration: none;
+}
+
+.letra2:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.video{
+    padding: 10px;
+    margin: 0px 1100px;
+}
+
+.fondoMain >.formatoVideo{
+    display: flex;
+    position: absolute;
+    align-items:flex-end;
+    bottom: 50%;
+    z-index:0;
+}
+
+.containerFooter{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin-top: 250px;
+}
+
+.containerFooterDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 500px;
+    background-color: black;
+
+}
+
+.fondoNegro{
+    background-color: black;
+}
+
+
+.tipoBoton{
+    text-decoration: none;
+    width: 800px;
+    height: 200px;
+    font-size: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 100px 2300px 200px;
+    
+}
+
+.tipoBoton:hover{
+background-color:rgb(147, 147, 207);
+}
+
+.letraFooter{
+    font-size: 100px;
+}
+
+footer > div > div > h3{
+    color: rgb(112, 112, 236);
+}
+
+thead {
+    background-color:rgb(147, 147, 207);
+}
+
+.tabla .columna{ 
+    font-size: 90px;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+  
+}
+
+.containerTabla{
+    margin-top: 100px;
+    padding: 190px;
+   
+}
+
+.tituloBusquedaViaje{
+    padding: 50px 2200px;
+    font-size: 200px;
+}
+
+.subtituloBusquedaViaje {
+    padding: 50px 1040px;
+    font-size: 100px;
+}
+
+.posicionContenidoCelda {
+    padding: 0px 70px;
+}
+
+.Beneficios{
+    display: flex;
+    justify-content: center;
+    gap: 270px;
+    font-size: 100px;
+}
+
+.tipoImagen{
+    display: flex;
+    width: 1700px;
+    height: 1250px;
+}
+
+.containerBeneficios{
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    gap: 320px; 
+}
+
+
+
+.tipoLetraBeneficio{
+    display: flex;
+    font-size: 100px;
+    color: rgb(112, 112, 236);
+    
+}
+
+.tipoLoremBeneficio{
+  
+    display: flex;
+    justify-content: start;
+    font-size: 100px;
+    width: 1000px;
+    padding: 0px  500px;
+    gap:100px
+}
+
+
+.containerBeneficios2{
+    margin: 500px;
+    display: flex;
+}
+
+.tipoImagen2{
+    display: flex;
+    padding: 160px 0px 0px 0px;
+    width: 1500px;
+    height: 1250px;
+}
+
+.containerIngresar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1900px;
+    height: 1700px;
+    padding: 100px;
+    margin: 200px 1680px;
+    border-radius: 50px;
+    border-color: black;
+   
+   
+}
+
+.tipodeLetraIngresar{
+    font-size: 150px;
+    color: rgb(112, 112, 236);
+}
+    
+.crearCuenta{
+    font-size: 100px;
+    font-style: italic;
+    color: blue;
+}    
+.crearCuenta:hover{
+    color: red;
+}
+
+.tipodeLetraIngresar1{
+    padding: 150px 0px 0px 0px;
+    font-size: 100px;
+    color: rgb(112, 112, 236);
+}
+
+.tipodeLetraIngresar2{
+    padding: 100px 100px 0px 0px;
+    font-size: 80px;
+}
